@@ -813,13 +813,14 @@ video {
   margin-top: 0.5rem;
   border-radius: 9999px;
   --tw-bg-opacity: 1;
-  background-color: rgb(251 146 60 / var(--tw-bg-opacity));
+  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
   padding: 0.5rem;
   font-size: 0.75rem;
   line-height: 1rem;
+  font-weight: 600;
   text-transform: uppercase;
   --tw-text-opacity: 1;
-  color: rgb(249 250 251 / var(--tw-text-opacity));
+  color: rgb(154 52 18 / var(--tw-text-opacity));
 }
 
 .btn{
@@ -946,10 +947,6 @@ video {
 
   .md\:border-2{
     border-width: 2px;
-  }
-
-  .md\:pr-4{
-    padding-right: 1rem;
   }
 
   .md\:pr-0{
