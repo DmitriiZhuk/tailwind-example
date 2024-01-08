@@ -546,40 +546,6 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.container{
-  width: 100%;
-}
-
-@media (min-width: 640px){
-  .container{
-    max-width: 640px;
-  }
-}
-
-@media (min-width: 768px){
-  .container{
-    max-width: 768px;
-  }
-}
-
-@media (min-width: 1024px){
-  .container{
-    max-width: 1024px;
-  }
-}
-
-@media (min-width: 1280px){
-  .container{
-    max-width: 1280px;
-  }
-}
-
-@media (min-width: 1536px){
-  .container{
-    max-width: 1536px;
-  }
-}
-
 .ml-6{
   margin-left: 1.5rem;
 }
@@ -740,6 +706,10 @@ video {
   padding-bottom: 0.5rem;
 }
 
+.pr-4{
+  padding-right: 1rem;
+}
+
 .text-right{
   text-align: right;
 }
@@ -866,42 +836,6 @@ video {
   letter-spacing: 0.05em;
 }
 
-@media (min-width: 768px){
-  .md\:container{
-    width: 100%;
-  }
-
-  @media (min-width: 640px){
-    .md\:container{
-      max-width: 640px;
-    }
-  }
-
-  @media (min-width: 768px){
-    .md\:container{
-      max-width: 768px;
-    }
-  }
-
-  @media (min-width: 1024px){
-    .md\:container{
-      max-width: 1024px;
-    }
-  }
-
-  @media (min-width: 1280px){
-    .md\:container{
-      max-width: 1280px;
-    }
-  }
-
-  @media (min-width: 1536px){
-    .md\:container{
-      max-width: 1536px;
-    }
-  }
-}
-
 @media (min-width: 1280px){
   .xl\:container{
     width: 100%;
@@ -1010,16 +944,16 @@ video {
     justify-content: flex-end;
   }
 
-  .md\:justify-between{
-    justify-content: space-between;
-  }
-
-  .md\:justify-evenly{
-    justify-content: space-evenly;
-  }
-
   .md\:border-2{
     border-width: 2px;
+  }
+
+  .md\:pr-4{
+    padding-right: 1rem;
+  }
+
+  .md\:pr-0{
+    padding-right: 0px;
   }
 }
 
